@@ -1,0 +1,95 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <table width="458" height="557" border="1" cellpadding="1" cellspacing="1">
+    <tr>
+      <td height="42" colspan="2" bgcolor="#FFFFFF"><img src="../images/2006101309305795374.gif" width="57" height="57" alt="logo" /><span id="zi">YY聊天室<img src="../images/little/sound.gif" width="16" height="12" hspace="2" vspace="2" align="right" /></span></td>
+    </tr>
+    <tr>
+      <td height="76" colspan="2" bgcolor="#FFA0A0"><ul id="MenuBar1" class="MenuBarHorizontal">
+        <li><a class="MenuBarItemSubmenu" href="#">最近联系人</a>
+          <ul>
+            <li><a href="#">丫丫</a></li>
+            <li><a href="#">老大</a></li>
+            <li><a href="#">钊哥</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu">我的好友</a>
+          <ul>
+            <li><a href="#" class="MenuBarItemSubmenu">家人</a>
+              <ul>
+                <li><a href="#">爸爸</a></li>
+                <li><a href="#">妹妹</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="MenuBarItemSubmenu">高中朋友</a>
+              <ul>
+                <li><a href="#">大牙</a></li>
+                <li><a href="#">小瑞</a></li>
+                <li><a href="#">胜南</a></li>
+                <li><a href="#">鬼子</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="MenuBarItemSubmenu">大学同学</a>
+              <ul>
+                <li><a href="#">丫丫</a></li>
+                <li><a href="#">双双</a></li>
+                <li><a href="#">钊哥</a></li>
+                <li><a href="#">小鹏</a></li>
+              </ul>
+            </li>
+            <li><a href="#">李佳佳老师</a></li>
+            <li><a href="#">张莉</a></li>
+          </ul>
+        </li>
+        <li><a class="MenuBarItemSubmenu" href="#">我的群</a>
+          <ul>
+            <li><a class="MenuBarItemSubmenu" href="#">班级</a>
+              <ul>
+                <li><a href="#">马旭林</a></li>
+                <li><a href="#">冬冬</a></li>
+              </ul>
+            </li>
+            <li><a href="#">荣粉之家</a></li>
+            <li><a href="#">中学群</a></li>
+          </ul>
+        </li>
+        <p><br />
+        </p>
+      </ul></td>
+    </tr>
+    <tr>
+      <td colspan="2" bgcolor="#FFA0A0"><div id="TabbedPanels1" class="TabbedPanels">
+        <ul class="TabbedPanelsTabGroup">
+          <li class="TabbedPanelsTab" tabindex="0">正在和 丫丫 聊天</li>
+          <li class="TabbedPanelsTab" tabindex="0">正在和 沈鹏 聊天</li>
+        </ul>
+        <div class="TabbedPanelsContentGroup">
+          <div class="TabbedPanelsContent">内容 1<br />
+。。。。。。</div>
+          <div class="TabbedPanelsContent">内容 2<br />
+。。。。。。</div>
+        </div>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="357" height="98" bgcolor="#FFA0A0"><form id="form1" name="form1" method="post" action="">
+        <textarea name="textarea" cols="45" rows="6" class="VTabbedPanels" id="textarea"></textarea>
+      </form></td>
+      <td width="88" align="center" valign="bottom" bgcolor="#FFA0A0"><input name="button" type="submit" id="button" value="Enter发送" /></td>
+    </tr>
+   <tr>
+      <td height="38" colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="35" height="27" bgcolor="#FFCCFF"><img src="../images/little/$J_7MOHP6(@E$LDRJM(CJFI.gif" width="19" height="18" /></td>
+            <td width="35" bgcolor="#FFCCFF"><img src="../images/little/1A6CBD6F-2E75-4205-B82F-9042A3566FB4.gif" width="17" height="16" /></td>
+            <td width="35" bgcolor="#FFCCFF"><img src="../images/little/mesfc.gif" width="12" height="12" /></td>
+            <td width="35" bgcolor="#FFCCFF"><img src="../images/little/[E[KNKF($O]WS50G`WUG_B7.gif" alt="礼物" width="24" height="24" align="absmiddle" /></td>
+            <td width="91" bgcolor="#FFCCFF"><input name="textfield" type="text" id="textfield" size="12" maxlength="10" /></td>
+            <td width="46" bgcolor="#FFCCFF"><label>
+            &nbsp;<img src="../images/little/1A73AD2F-661E-4ca5-997C-9EBB75F27FDA.gif" alt="搜索好友" width="14" height="14" align="middle" /></label></td>
+            <td width="130" bgcolor="#FFCCFF"><div align="center">
+                <!-- #BeginDate format:Ch1m -->11/7/21   17:21<!-- #EndDate -->
+            </div></td>
+          </tr>
+      </table></td>
+    </tr>
+  </table>

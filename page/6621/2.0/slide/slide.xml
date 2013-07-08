@@ -1,0 +1,11 @@
+<gallery>
+  <album name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;Album&lt;/font&gt;" description="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;Album Description Here&lt;/font&gt;">
+    <slide type="img" src="images/建南.jpg" tnsrc="images/tn_建南.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621建南&lt;/font&gt;" link="homepage.html" target="_self"/>
+    <slide type="img" src="images/大为.jpg" tnsrc="images/tn_大为.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621大为&lt;/font&gt;"/>
+    <slide type="img" src="images/程伟.jpg" tnsrc="images/tn_程伟.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621程伟&lt;/font&gt;"/>
+    <slide type="img" src="images/黄杨.jpg" tnsrc="images/tn_黄杨.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621黄杨&lt;/font&gt;"/>
+    <slide type="img" src="images/小鹏.jpg" tnsrc="images/tn_小鹏.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621小鹏&lt;/font&gt;" link="homepage.html" target="_self"/>
+    <slide type="img" src="images/李钊2.jpg" tnsrc="images/tn_李钊2.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621李钊&lt;/font&gt;"/>
+    <slide type="img" src="images/沈鹏.jpg" tnsrc="images/tn_沈鹏.jpg" effect="fadein" duration="4" effectspeed="3" name="&lt;font size=&quot;12&quot; face=&quot;Arial&quot; color=&quot;#FFFFFF&quot;&gt;6621沈鹏&lt;/font&gt;"/>
+  </album>
+</gallery>

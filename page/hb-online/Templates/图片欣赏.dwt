@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css"> 
+<!-- 
+body  {
+	font: 100% 宋体, 新宋体;
+	background: #666666;
+	margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	text-align: center; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+	color: #000000;
+}
+
+/* 弹性布局提示 
+1. 由于弹性布局的总体大小取决于用户的默认字体大小，因此弹性布局更难预测。如果正确使用的话，弹性布局对于那些需要较大字体的用户更为方便，因为行的长度仍保持适当比例。
+2. 此布局中 div 的大小取决于 body 元素中的 100% 字体大小。如果您通过对 body 元素或 #container 使用“font-size: 80%”来减小文本的总体大小，请记住整体布局将按比例缩小。您最好增加各个 div 的宽度以对此进行补偿。
+3. 如果字体大小在每个 div 中按不同的量进行更改（例如，#sidebar1 上的字体大小为 70%，#mainContent 上的字体大小为 85%），而不是对总体设计进行更改，则将按比例更改每个 div 的总体大小。您最好基于最终的字体大小来调整这些 div。
+*/
+.twoColElsRt #container {
+	width: 46em;  /* 当文本保持浏览器的默认字体大小时，此宽度将创建一个适合 800px 浏览器窗口的容器 */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+	border: 1px solid #000000;
+	text-align: center; /* 这将覆盖 body 元素上的“text-align: center”。 */
+} 
+
+/* sidebar1 提示：
+1. 请记住，如果为该 div 设置了字体大小，则该 div 的总体宽度将进行相应的调整。
+2. 由于我们使用的是全方 (em)，因此最好不要针对侧栏本身使用填充。它将会新增至宽度，而让符合标准的浏览器建立未知的实际宽度。 
+3. 如果为 div 中的元素设置左边距和右边距，则会在 div 边缘和这些元素之间产生空白，如“.twoColElsRt #sidebar1 p”规则中所示。
+*/
+.twoColElsRt #sidebar1 {
+	float: right; 
+	width: 12em; /* 由于此元素是浮动的，因此必须指定宽度 */
+	background: #EBEBEB; /* 将显示背景色，其宽度等于栏中内容的长度，*/
+	padding: 15px 0; /* 顶部和底部的填充将在该 div 中产生视觉空间 */
+}
+.twoColElsRt #sidebar1 h3, .twoColElsRt #sidebar1 p {
+	margin-left: 10px; /* 对于将要放在侧栏中的每个元素，都应当设置左边距和右边距 */
+	margin-right: 10px;
+}
+
+/* mainContent 提示：
+1. 如果为 #mainContent div 和 #sidebar1 div 指定不同的字体大小，则 #mainContent div 的边距和 #sidebar1 div 的宽度将取决于各自 div 的字体大小。您最好调整这些 div 的值。
+2. mainContent 和 sidebar1 之间的空白是由 mainContent div 的左边距创建的。无论 sidebar1 div 中包含多少内容，都将保留栏空白。如果您希望在 #sidebar1 中的内容结束时，用 #mainContent div 的文本填充 #sidebar1 空白，则可以删除此左边距。
+3. 为避免出现“浮动下降”，可能需要进行测试，以确定近似的最大图像/元素大小，这是由于此布局基于用户的字体大小以及您所设置的值。但是，如果用户将浏览器的字体大小设置为低于正常值，那么，在 #mainContent div 中看到的空白将少于在测试时看到的空白。
+4. 在下面的 Internet Explorer 条件注释中，zoom 属性用来赋予 mainContent“hasLayout”。这会避免几个可能出现的特定于 IE 的错误。
+*/
+.twoColElsRt #mainContent {
+	margin: 0 13em 0 1.5em; /* 左边距可以用全方 (em) 或像素来指定，它会在页面的左下方产生空白。 */
+}  
+
+/* 要重用的各种类 */
+.fltrt { /* 此类可用来使页面中的元素向右浮动。浮动元素必须位于页面上要与之相邻的元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用来使页面上的元素向左浮动 */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* 此类应当放在 div 或 break 元素上，而且该元素应当是完全包含浮动的容器关闭之前的最后一个元素 */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+--> 
+</style><!--[if IE]>
+<style type="text/css"> 
+/* 请将所有版本的 IE 的 css 修复放在这个条件注释中 */
+.twoColElsRt #sidebar1 { padding-top: 30px; }
+.twoColElsRt #mainContent { zoom: 1; padding-top: 15px; }
+/* 上面的专用 zoom 属性为 IE 提供避免错误所需的 hasLayout */
+</style>
+<![endif]-->
+<script src="../SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="twoColElsRt">
+
+<div id="container">
+  <p>
+    <!-- 这个用于清除浮动的元素应当紧跟 #mainContent div 之后，以便强制 #container div 包含所有的子浮动 -->
+  <a name="tou" id="tou"></a></p>
+  <div id="TabbedPanels1" class="TabbedPanels">
+    <ul class="TabbedPanelsTabGroup">
+      <li class="TabbedPanelsTab" tabindex="0">风景篇</li>
+      <li class="TabbedPanelsTab" tabindex="0">人文篇</li>
+      <li class="TabbedPanelsTab" tabindex="0">淮北老照片</li>
+    </ul>
+    <div class="TabbedPanelsContentGroup">
+      <div class="TabbedPanelsContent">
+        <p>&nbsp;</p>
+        <p align="center"><img src="../imagines/hb/DSC_0000010.gif" width="462" height="345" /></p>
+        <p>相王建城</p>
+        <p>&nbsp;</p>
+        <p align="center"><img src="../imagines/hb/14.jpg" width="400" height="264" /></p>
+        <p>城市雕塑</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/体育馆.jpg" alt="" width="300" height="192" /></p>
+        <p>体育馆</p>
+<p>&nbsp;</p>
+        <p><img src="../imagines/hb/http_imgload2.jpg" alt="" width="330" height="600" /></p>
+        <p>淮北电视塔</p>
+        <p>&nbsp;</p>
+<p><img src="../imagines/hb/31.jpg" alt="1" width="454" height="304" /></p>
+<p>淮北夜景</p>
+<p>&nbsp;</p>
+<p><br class="clearfloat" />
+  <img src="../imagines/hb/7848_1234150516vgPi.jpg" alt="5" width="623" height="506" /></p>
+<p>淮北夜景</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="../imagines/hb/http_imgload3.jpg" alt="2" width="616" height="399" /></p>
+<p>煤城之夜</p>
+<p>&nbsp;</p>
+<p><img src="../imagines/hb/流光溢彩的夜景.jpg" alt="4" width="407" height="279" /></p>
+<p>流光溢彩的夜景</p>
+<p>&nbsp;</p>
+<p><img src="../imagines/hb/复件 09bb4f3d8eb32cb93d6d97d9.jpg" alt="3" width="452" height="602" /></p>
+<p>淮北图书城</p>
+<hr />
+<p>&nbsp;</p>
+<p><a href="#tou">回到顶部</a></p>
+      </div>
+      <div class="TabbedPanelsContent">
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/我为煤城耀.gif" width="500" height="324" /></p>
+        <p>我为煤城耀</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/15.jpg" width="500" height="425" /></p>
+        <p>放飞美丽</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/aaa.gif" width="500" height="327" /></p>
+        <p>趣</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/image002.jpg" width="553" height="349" /></p>
+        <p>全民健身活动</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/放飞美丽.gif" width="500" height="346" /></p>
+        <p>放飞美丽</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/舞狮庆节日.gif" width="500" height="335" /></p>
+        <p>舞狮庆节日</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/文明淮北 (1).jpg" width="350" height="263" /></p>
+        <p>城市文明</p>
+        <p><img src="../imagines/hb/文明淮北 (3).jpg" width="551" height="368" /></p>
+        <p>城市文明</p>
+        <p><img src="../imagines/hb/广场签名.jpg" width="400" height="300" /></p>
+        <p>广场签名</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/捐款.jpg" width="400" height="238" /></p>
+        <p>爱心集结号</p>
+        <hr />
+        <p>&nbsp;</p>
+        <p><a href="#tou">回到顶部</a></p>
+      </div>
+      <div class="TabbedPanelsContent">
+        <p><img src="../imagines/hb/淮北老照片/昔日的淮海路-只记的儿时成片的树荫.jpg" width="590" height="600" /></p>
+        <p>昔日的淮海路-只记的儿时成片的树荫</p>
+        <p>&nbsp;</p>
+        <p><img src="../imagines/hb/淮北老照片/20世纪80年代初期的城市一角.jpg" width="354" height="451" /></p>
+        <p>20世纪80年代初期的城市一角</p>
+        <p><img src="../imagines/hb/淮北老照片/20世纪80年代末期的城市一角.jpg" width="547" height="365" /></p>
+        <p>20世纪80年代初期的城市一角</p>
+        <p><img src="../imagines/hb/淮北老照片/报社大楼旧址.jpg" width="501" height="313" /></p>
+        <p>报社大楼旧址</p>
+        <p><img src="../imagines/hb/淮北老照片/城区一角.jpg" width="648" height="422" /></p>
+        <p>城区一角</p>
+        <p><img src="../imagines/hb/淮北老照片/东山路2.jpg" width="611" height="407" /></p>
+        <p>东山路</p>
+        <p><img src="../imagines/hb/淮北老照片/惠黎路旧貌.jpg" width="655" height="420" /></p>
+        <p>惠黎路旧貌</p>
+        <p>&nbsp;</p>
+        <img src="../imagines/hb/淮北老照片/孟山中路.jpg" width="655" height="426" />
+<p>孟山中路</p>
+<p><img src="../imagines/hb/淮北老照片/孟山中路人行道.jpg" width="655" height="412" /></p>
+        <p>孟山中路</p>
+        <p><img src="../imagines/hb/淮北老照片/青龙山港口建设.jpg" width="593" height="327" /></p>
+        <p>青龙山港口建设</p>
+        <p><img src="../imagines/hb/淮北老照片/昔日的淮海路3.jpg" width="655" height="384" /></p>
+        <p>昔日的淮海路</p>
+        <p><img src="../imagines/hb/淮北老照片/原古城路.jpg" width="670" height="434" /></p>
+        <p>原古城路</p>
+        <p><img src="../imagines/hb/淮北老照片/原人民路旧址.jpg" width="650" height="421" /></p>
+        <p>原人民路旧址</p>
+        <p><img src="../imagines/hb/淮北老照片/原矿工总医院旧址.jpg" width="474" height="255" /></p>
+        <p>原矿工总医院旧址</p>
+        <hr />
+        <p>&nbsp;</p>
+        <p><a href="#tou">回到顶部</a></p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- end #container --></div>
+<script type="text/javascript">
+<!--
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+a:link {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #359CDE;
+	text-decoration: underline;
+}
+a:visited {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #C6C;
+	text-decoration: underline;
+}
+a:hover {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #F03;
+	text-decoration: underline;
+}

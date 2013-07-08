@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	font: 100% 宋体, 新宋体;
+	background: #666666;
+	margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	text-align: center; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+	color: #000000;
+	background-color: #7A96DF;
+}
+
+/* 弹性布局提示 
+1. 由于弹性布局的总体大小取决于用户的默认字体大小，因此弹性布局更难预测。如果正确使用的话，弹性布局对于那些需要较大字体的用户更为方便，因为行的长度仍保持适当比例。
+2. 此布局中 div 的大小取决于 body 元素中的 100% 字体大小。如果您通过对 body 元素或 #container 使用“font-size: 80%”来减小文本的总体大小，请记住整体布局将按比例缩小。您最好增加各个 div 的宽度以对此进行补偿。
+3. 如果字体大小在每个 div 中按不同的量进行更改（例如，#sidebar1 上的字体大小为 70%，#mainContent 上的字体大小为 85%），而不是对总体设计进行更改，则将按比例更改每个 div 的总体大小。您最好根据最终的字体大小来进行调整。
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* 当文本保持浏览器的默认字体大小时，此宽度将创建一个适合 800px 浏览器窗口的容器 */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+	border: 1px solid #000000;
+	text-align: left; /* 这将覆盖 body 元素上的“text-align: center”。 */
+}
+.oneColElsCtrHdr #header { 
+	background: #DDDDDD; 
+	padding: 0 10px 0 20px;  /* 此填充会将出现在它后面的 div 中的元素左对齐。如果 #header 中使用的是图像（而不是文本），您最好删除填充。 */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* 将 #header div 中最后一个元素的边距设置为零将避免边距重叠（即 div 之间出现的无法解释的空白）。如果 div 周围有边框，则不必将边距设置为零，因为边框也会避免边距重叠 */
+	padding: 10px 0; /* 使用填充而不使用边距将可以使元素远离 div 的边缘 */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* 请记住，填充是 div 方块内部的空间，边距则是 div 方块外部的空间 */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* 此填充会将它上面 div 中的所有元素左对齐。 */
+	background:#DDDDDD;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* 将脚注中第一个元素的边距设置为零将避免出现可能的边距重叠（即 div 之间出现的空白）*/
+	padding: 10px 0; /* 就像边距会产生空白一样，此元素上的填充也将产生空白，但不会出现边距重叠问题 */
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h1 align="center">&nbsp;</h1>
+    <h1 align="center">寻找淮北的“中国好人” 李雷</h1>
+    <p align="center">(中国美术家协会会员、淮北市美协副主席、淮北市国画院院长) </p>
+    <p align="center" >　</p>
+  <!-- end #header --></div>
+  <div id="mainContent">
+    <p >文明之光耀相城</p>
+    <p >&#160;&#160;&#160;&#160;人多的地方，好人就多，坏人也会相对多些，在我的观念里，就应该&nbsp;是这样的，可一次偶然的机会，我在报纸上看到自己生活的城市&#8212;&#8212;安徽淮北，这个只有210万人口的小城市，在2009年一个年头里，竟有15个人入选&#8220;中&nbsp;国好人榜&#8221;，这在全省名列第一，而安徽省则以82人入选名列全国第一，我是土生土长的淮北人，从小就听大人们说淮北人实在，可哪能想到身边有那么多&#8220;中国&nbsp;好人&#8221;呢，想想觉得挺光荣，&#8220;中国好人&#8221;都长什么样呀，难道像超人一样，哪里有难哪里有他，或者长得就像观音菩萨一样慈眉善目，一看就是个好人，又是一次&nbsp;偶然的机会，我与一个&#8220;中国好人&#8221;相识了，直到那一刻，我似乎才明白怎么她就成&#8220;中国好人&#8221;了。</p>
+  </div>
+  <p align="center" >&nbsp;</p>
+  <div id="footer">
+    <p>脚注</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

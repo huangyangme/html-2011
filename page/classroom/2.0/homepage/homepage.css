@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../img/bgimg10-10.gif);
+	margin: 0px;
+	padding:0px;
+	text-align:center;
+}
+.logo {
+	position: absolute;
+	left: 13%;
+	top: 10px;
+}
+/* 上面是logo样式定义 */
+#top {
+	margin:1px auto;
+	width:100%;
+	height:85px;
+	background-image:url(../img/jbbj2.gif);
+	background-repeat: repeat-x;
+}
+#links {
+	margin:5px auto;
+	padding-left: 80px;
+	width:900px;
+	height:50px;
+}
+#banner {
+	margin:5px auto;
+	padding:0px;
+	height:240px;
+	clear:both;
+}
+#content {
+	margin: 5px auto;
+	width:850px;
+	height: 100%;
+	clear:both;
+}
+#copyright {
+	margin:10px;
+	padding:20px;
+	clear: both;
+}
+#copyright p {
+	font: 14px;
+	color:#666;
+	text-align:center;
+}
+.menu {
+	margin: 2px auto;
+	padding: 10px auto;
+	background: url(../img/menu.gif) no-repeat;
+	height: 217px;
+	width: 800px;
+}
+.menu p {
+	margin:30px 10px 5px 10px;
+	text-align:right;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+.menu p .aut {
+	margin: 2px 20px;
+	text-align:right;
+}
+.menu h1 {
+	margin: 10px;
+	padding:60px;
+	font-style: italic;
+	font-weight: bolder;
+	font-family: "迷你简准圆" "黑体";
+	color: #0066FF;
+}
+.box {
+	width:850px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+.box hr {
+	width:800px;
+}
+.box p {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-align: left;
+	margin:20px;
+}
+.box .links {
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	size:16px;
+	margin:5px auto;
+	width: 150px;
+	height: 30px;
+	float:right;
+}
+.box a:link {
+	color:#03F;
+	text-decoration: none;
+}
+.box a:hover {
+	color:#69F;
+	text-decoration: underline;
+}
+.box a:visited {
+	color:#999;
+	text-decoration: none;
+}
+ul {
+	list-style-image: url(../img/ul.jpg);
+	text-align:left;
+}
+li {
+	margin:20px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.img {
+	float:left;
+	margin:10px 5px;
+}
+#top a {
+	background-color: #E5F4FD;
+	margin-left:20px;
+	text-decoration: none;
+	border: thin solid #008bc1;
+}
+#top a:link {
+	color: #359CDE;
+	padding:5px 18px;
+}
+#top a:hover {
+	color:#F90;
+	padding:6px 18px;
+}
+#top a:visited {
+	color:#666;
+	padding:5px 18px;
+}
+/* 超链接样式 */
+
+.links {
+	margin:20px 40px;
+	width:80px;
+	height:20px;
+	float:left;
+	font-family: "宋体";
+	font-size: 16px;
+	font-weight: bolder;
+}
+#links a:link {
+	color: #359CDE;
+	text-decoration: underline;
+}
+#links a:visited {
+	color: #999;
+	text-decoration: underline;
+}
+#links a:hover {
+	font-size: 18px;
+	color: #FC9;
+	text-decoration: underline;
+}
+.pic {
+	float:left;
+	margin:20px;
+}
