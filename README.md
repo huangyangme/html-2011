@@ -2,4 +2,4 @@
 ==============
 Some HTML code when I was a student.
 
-http://iamyang.github.io/HTML2011/
+http://iamyang.github.io/html-2011/
